@@ -1,4 +1,6 @@
-exports.diffHours = function (startTime, endTime) {
+"use strict";
+
+module.exports = function diffHours (startTime, endTime) {
 
     let first_split = startTime.split(':');
     let second_split = endTime.split(':');
