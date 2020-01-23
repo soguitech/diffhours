@@ -1,0 +1,28 @@
+{
+  "name": "diffhours",
+  "version": "0.1.0",
+  "description": "The number of hours between two hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOGUITECH/diffHours.git"
+  },
+  "keywords": [
+    "Diff",
+    "Difference",
+    "Hours",
+    "between"
+  ],
+  "author": "SOGUITECH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SOGUITECH/diffHours/issues"
+  },
+  "homepage": "https://github.com/SOGUITECH/diffHours#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
