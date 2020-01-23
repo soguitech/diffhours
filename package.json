@@ -22,5 +22,5 @@
     "url": "https://github.com/SOGUITECH/diffHours/issues"
   },
   "homepage": "https://github.com/SOGUITECH/diffHours#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@Malal91" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
