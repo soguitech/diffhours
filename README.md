@@ -17,7 +17,7 @@ npm install diffhours --save
 very simple
 
 ```javascript
-import diffhours from 'diffhours';
+const diffhours = require('diffhours');
 
 console.log(diffhours('10:40', '01:10')) // 14H30
 ```

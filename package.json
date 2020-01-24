@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/SOGUITECH/diffHours/issues"
   },
-  "homepage": "https://github.com/SOGUITECH/diffHours#readme"
+  "homepage": "https://github.com/SOGUITECH/diffHours#readme",
+  "dependencies": {
+    "diffhours": "^0.1.3"
+  }
 }
