@@ -1,3 +1,3 @@
 const diffHours = require('./');
 
-console.log(diffHours('10:40', '00:10'))
+console.log(diffHours('10:40', '01:10'))
