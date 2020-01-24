@@ -25,7 +25,14 @@ module.exports = function diffHours (startTime, endTime) {
             }
         } else {
             hours = 24 - (parseInt(first_split[0]) - parseInt(second_split[0]));
-            minute = parseInt(first_split[1]) - parseInt(second_split[1]);
+            if (parseInt(first_split[1]) > parseInt(second_split[1])) {
+                hours = hours - 1;
+                minute = parseInt(first_split[1]) - parseInt(second_split[1]);
+            } else if (parseInt(second_split[1]) > parseInt(first_split[1])) {
+                minute = parseInt(second_split[1]) - parseInt(first_split[1]);
+            } else {
+                minute = parseInt(first_split[1]) - parseInt(second_split[1]);
+            }
         }
 
         hours < 10 ?  h = '0' + hours : h = hours;
