@@ -1,7 +1,7 @@
 # diffhours
 Difference between two hours
 
-This plugin is very simple, it determined the number of hours between two hours. it's waiting two parameters(string) : `startTime` and `endTime`
+This package is very simple, it determine the existing number of hours between two hours. it's waiting two parameters(string) : `startTime` and `endTime`
 
 ## Installation
 
